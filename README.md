@@ -1,10 +1,22 @@
 # PAPR (Powered Air-Purifying Respirator)
-DIY PAPR for health workers (in progress).
+DIY PAPR for health workers.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Influenza_virus_research.jpg/800px-Influenza_virus_research.jpg" alt="drawing" width="250"/>
 
 Image source: [PAPR Wikipedia](https://en.wikipedia.org/wiki/Powered_air-purifying_respirator)
 
+
+## Update on 15th April. 
+- Now using a 20000mAh [power bank](https://www.jaycar.com.au/20-000mah-power-bank-with-dual-type-a-quick-charge-and-type-c-power-delivery-usb-ports/p/MB3797) that is smaller, cheaper and easier to get. 
+- Testing enclosure using 6mm Acrylic + 3D print fan blower adapter. 
+
+## Update on 13th April.
+- Tested a 12.8V 7.5Ah [lithum battery](https://www.jaycar.com.au/12-8v-7-5ah-lithium-deep-cycle-battery/p/SB2201), the fan worked for 15 hours, with less than 25% volume left.
+- Tested an all 3D print enclosure, the cost was ~300 AUD. Changed to 3D print + laser cutting scheme. 
+
+## Update on 11th April.
+- Tested PC fan (1200 RPM), the static pressure was not sufficient. Probably a high speed fan is required.
+- Changed design to [blower fan](https://www.jaycar.com.au/97mm-x-94mm-12v-dc-blower-fan-ball-bearing-2-wire/p/YX2532) which has higher static pressure. 
 
 ## Specifications ([ref](https://www.3m.com.au/3M/en_AU/company-au/all-3m-products/~/3M-Jupiter-PAPR-Helmet-JTM-406C/?N=5002385+8711017+3293696209&rt=rud))
 - **Battery life**: > 10 hours
@@ -14,11 +26,21 @@ Image source: [PAPR Wikipedia](https://en.wikipedia.org/wiki/Powered_air-purifyi
   - or 55 Pa @1L/sec, 73 Pa @5L/sec, < 147 Pa @14 L/sec.
   
 ## Materials
-- **[120mm PC fans](https://www.amazon.com.au/gp/product/B072LDYKQ6/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)**
-  - Air volume: 38 CFM.
-  - Static pressure: 58 Pa. 
-  - Fan pressure boost adapter [[stl](https://github.com/HighTemplar-wjiang/PAPR/blob/master/stl/fan_booster.stl)]. 
-- **[Battery](https://www.amazon.com/Cigooxm-2000mAh-Battery-AR-Drone-Quadcopter/dp/B07V9D7SK1/ref=sr_1_3?dchild=1&keywords=ar+drone+battery+2000&qid=1586313933&s=electronics&sr=1-3)**
-  - Voltage: 11.1 V.
-  - Capacity: 2000 mAh.
-- **[Charger](https://www.amazon.com/Upgrade-1800mAh-Battery-Replacement-Balance/dp/B086GB7NRQ/ref=sr_1_2?dchild=1&keywords=ar+drone+battery+charger&qid=1586313993&sr=8-2)**
+- **[Blower fan](https://www.jaycar.com.au/97mm-x-94mm-12v-dc-blower-fan-ball-bearing-2-wire/p/YX2532)**
+  - Air volume: 0.74 m<sup>2</sup>/min (26.13 CFM).
+  - Static pressure: 1.0 inchH<sub>2</sub>O (2.54 cmH<sub>2</sub>O or 248.84 Pa).
+  - Power consumption: 12 V x 0.86 A = 10.32 Watts (12.4 V x 0.38 A = 4.712 Watts as measured).
+  - 3D-printed adapter [[in progress]()]. 
+- **[Power bank](https://www.jaycar.com.au/20-000mah-power-bank-with-dual-type-a-quick-charge-and-type-c-power-delivery-usb-ports/p/MB3797)**
+  - Capacity: 20000 mAh.
+  - Voltage regulator: USB 12V step-up [power cable](https://www.jaycar.com.au/universal-usb-12v-step-up-power-cable/p/PP1978).
+  - Slide [switch](https://www.jaycar.com.au/miniature-dpdt-panel-mount-switch/p/SS0821).
+- **[CPAP/BiCAP bacteria filter](https://www.google.com/search?q=bacteria+filter&newwindow=1&rlz=1C1CHBF_en-GBAU878AU878&sxsrf=ALeKk00tQMjTFyXqZiyXmlXnysL8wDm1-g:1586943680106&tbm=isch&source=iu&ictx=1&fir=CWFMSYPq2Sse6M%253A%252Cul_TTRfInZ_iRM%252C_&vet=1&usg=AI4_-kTNiGZukLHlwl-E7zovhjH9Xxoe-Q&sa=X&ved=2ahUKEwjH9dLykeroAhV3wTgGHakdCnQQ9QEwBXoECAcQJw#imgrc=CWFMSYPq2Sse6M:)**
+  - In-flow diameters: 22 mm inner, 26 mm outer.
+  - Out-flow diameters: 19 mm inner, 22 mm outer. 
+  - 3D-printed filter adapter [[in progress]()].
+- Laser cutted pannels for enclosure
+  - 6 mm Acrylic. 
+  - M3 screws x 2.
+  - Silicone glue. 
+  - Silicone tape.
