@@ -5,9 +5,11 @@ DIY PAPR for health workers.
 
 Image source: [PAPR Wikipedia](https://en.wikipedia.org/wiki/Powered_air-purifying_respirator)
 
+## Update on 16th April.
+- Battery test using a 20,000 mAh power bank -- 9 hours 4 minutes. 
 
 ## Update on 15th April. 
-- Now using a 20000mAh [power bank](https://www.jaycar.com.au/20-000mah-power-bank-with-dual-type-a-quick-charge-and-type-c-power-delivery-usb-ports/p/MB3797) that is smaller, cheaper and easier to get. 
+- Now using a 20,000 mAh [power bank](https://www.jaycar.com.au/20-000mah-power-bank-with-dual-type-a-quick-charge-and-type-c-power-delivery-usb-ports/p/MB3797) that is smaller, cheaper and easier to get. 
 - Testing enclosure using 6mm Acrylic + 3D print fan blower adapter. 
 
 ## Update on 13th April.
