@@ -44,6 +44,6 @@ DIY PAPR for health workers [wiki](https://en.wikipedia.org/wiki/Powered_air-pur
   - 3D-printed filter adapter [[in progress]()].
 - Laser cutted pannels for enclosure
   - 6 mm Acrylic. 
-  - M3 screws x 2.
+  - M3 screws x 10.
   - Silicone glue. 
   - Silicone tape.
