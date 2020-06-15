@@ -1,9 +1,7 @@
 # PAPR (Powered Air-Purifying Respirator)
-DIY PAPR for health workers.
+DIY PAPR for health workers [wiki](https://en.wikipedia.org/wiki/Powered_air-purifying_respirator). 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Influenza_virus_research.jpg/800px-Influenza_virus_research.jpg" alt="drawing" width="250"/>
-
-Image source: [PAPR Wikipedia](https://en.wikipedia.org/wiki/Powered_air-purifying_respirator)
+<img src="https://raw.githubusercontent.com/HighTemplar-wjiang/PAPR/master/prototype.jpg" alt="prototype" height="250">
 
 ## Update on 21st May.
 - Uploaded source files, finalizing design and test.
@@ -24,7 +22,7 @@ Image source: [PAPR Wikipedia](https://en.wikipedia.org/wiki/Powered_air-purifyi
 - Changed design to [blower fan](https://www.jaycar.com.au/97mm-x-94mm-12v-dc-blower-fan-ball-bearing-2-wire/p/YX2532) which has higher static pressure. 
 
 ## Specifications ([ref](https://www.3m.com.au/3M/en_AU/company-au/all-3m-products/~/3M-Jupiter-PAPR-Helmet-JTM-406C/?N=5002385+8711017+3293696209&rt=rud))
-- **Battery life**: > 10 hours
+- **Battery life**: > 8 hours (preferred 10 hours or longer)
 - **Capacity per Minute (Metric)**: 150 to 230 litres per min (2.5 - 3.8 L/sec or 5.3 - 8.12 CFM)
 - **Resistance to flow (N95 filter)**: 
   - 0.56 cmH<sub>2</sub>O @1L/sec, 0.74 cmH<sub>2</sub>O @5L/sec, <1.50 cmH<sub>2</sub>O @ 14L/sec.
